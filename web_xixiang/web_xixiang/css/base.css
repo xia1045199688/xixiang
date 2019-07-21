@@ -1,0 +1,7 @@
+/* CSS Document */
+@charset "utf-8";
+/*基础标签重置*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,  caption,tfoot, s { margin:0; padding:0; border:0; font-size:13px; vertical-align:baseline; font-style:normal; text-decoration:none;word-wrap: break-word;}
+ol,ul,li { list-style:none;}
+img{border:none;}
+a,p,h1, h2, h3, h4, h5, h6{text-decoration:none;font-family: "微软雅黑";}

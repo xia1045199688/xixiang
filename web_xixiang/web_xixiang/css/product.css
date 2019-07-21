@@ -1,0 +1,227 @@
+/* CSS Document */
+@charset "utf-8";
+
+.top{
+    width: 100%;
+    min-width: 1440px;
+    height: 431px;
+    margin: 0 auto;
+    background-image: url("../img/aboutus/aboutus_0.jpg");
+    text-align: center;
+    position: relative;
+}
+.top_header{
+
+    /*margin: 0 auto;*/
+    height: 88px;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    z-index: 99;
+}
+.top_header_nav,.top_header img{
+    display: inline-block;
+}
+.top_header_nav a{
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0 20px;
+}
+.top_header_nav{
+    position: relative;
+    bottom: 8px;
+    padding: 0;
+}
+.top_header img{
+    width: 82px;
+    height: 61px;
+    margin: 10px 60px 0;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #0059d2;
+}
+.top_title{
+    width: 100%;
+    height: 132px;
+    background: rgba(2,2,1,0.8);
+    position: absolute;
+    bottom: 0;
+}
+.top_title h1 {
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 132px;
+    text-align: left;
+    margin-left: 120px;
+}
+.top_title div{
+    width: 1440px;
+    margin: 0 auto;
+}
+.content{
+    width: 100%;
+    min-width: 1440px;
+    margin: 0 auto;
+}
+.content_nav{
+    height: 96px;
+    background: #ffffff;
+}
+.content_nav ul{
+    width: 1200px;
+    margin: 0 auto;
+    /*margin-left: 120px;*/
+}
+.content_nav ul li{
+    float: left;
+    width: 120px;
+    height: 34px;
+    text-align: center;
+    background: #eaeaec;
+    margin: 31px 10px 31px 0;
+}
+.content_nav ul li a{
+    font-size: 16px;
+    line-height: 34px;
+    color: #4c4c4c;
+    padding: 6px 44px;
+}
+/*.content_nav ul li:hover,.content_nav ul li a:hover{*/
+    /*background: #0059d2;*/
+    /*color: #ffffff;*/
+/*}*/
+#content_nav_1{
+    background: #0059d2;
+}
+#content_nav_1 a{
+    color: #ffffff;
+}
+.content_main_wrap{
+    width: 100%;
+    min-width: 1440px;
+    height: 2356px;
+    margin: 0 auto;
+    background: #eaeaec;
+}
+.content_main_a,.content_main_b,.content_main_c,.content_main_d{
+    width: 1200px;
+    height: 2356px;
+    margin: 0 auto;
+    position: relative;
+    padding-top:20px;
+}
+.content_main_b,.content_main_c,.content_main_d{
+    display: none;
+}
+.content_main_pic{
+    width: 397px;
+    height: 383px;
+    position: relative;
+    /*cursor: pointer;*/
+    float: left;
+    margin: 1.5px 1.5px;
+}
+.content_main_pic_note{
+    width: 397px;
+    height: 160px;
+    background: #3f4144;
+    position: absolute;
+    bottom: 0;
+    visibility: hidden;
+}
+.content_main_pic_note p{
+    font-size: 35px;
+    color: #ffffff;
+}
+.content_main_pic_text{
+    margin: 15px 0 0 30px;
+}
+.content_main_top{
+    background: #4b4c4d;
+    width: 53px;
+    height: 53px;
+    text-align: center;
+    float: right;
+    position: fixed;
+    right: 10%;
+    top: 80%;
+    z-index: 999;
+}
+.content_main_top img{
+    margin: 17px 0;
+}
+.footer{
+    width: 100%;
+    min-width: 1440px;
+    height: 202px;
+    margin: 0 auto;
+    background: #1f2024;
+}
+.footer_content{
+    width: 1200px;
+    height: 202px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_content_left{
+    width: 600px;
+    height: 202px;
+    float: left;
+}
+.footer_content_left img{
+    float: left;
+    margin-left: 115px;
+    margin-top: 50px;
+}
+.footer_content_left p{
+    font-size: 12px;
+    color: #373737;
+    font-weight: bold;
+}
+.footer_content_left a{
+    font-size: 12px;
+    color: #373737;
+}
+.footer_content_left_p1{
+    margin-top: 86px;
+}
+.footer_content_right{
+    width: 600px;
+    height: 202px;
+    float: left;
+}
+.footer_content_right_icon{
+    width: 170px;
+    height: 30px;
+    margin: 88px 100px 0 0;
+    float: right;
+}
+.footer_content_right_qq,.footer_content_right_weixin,.footer_content_right_weibo{
+    margin: 0 13px;
+}
+.footer_content_right_qq{
+    width: 23px;
+    height: 28px;
+    float: left;
+    position: relative;
+}
+.footer_content_right_blue{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+.footer_content_right_qq:hover .footer_content_right_blue,.footer_content_right_weixin:hover .footer_content_right_blue,.footer_content_right_weibo:hover .footer_content_right_blue{
+    display: block;
+}
+.footer_content_right_weixin{
+    width: 31px;
+    height: 26px;
+    float: left;
+    position: relative;
+}
+.footer_content_right_weibo{
+    width: 31px;
+    height: 27px;
+    float: left;
+    position: relative;
+}
